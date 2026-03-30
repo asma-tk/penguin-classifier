@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Env files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Streamlit / local settings
+.streamlit/secrets.toml
+
+# ML artifacts (generated locally)
+dataset_original/
+penguin_model/
+penguin_model/checkpoint-*/
+penguin_model/runs/
+penguin_model/wandb/
+wandb/
+mlruns/
+
+# Training state files
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
